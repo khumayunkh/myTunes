@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    max-width: 2300px;
+    
+}
+
+/* container
+=================== */
+
+.container{
+    width: 100%;
+    max-width: 2300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.nav{
+    display: flex;
+    background-color: rgb(61, 66, 65);
+}
+
+.nav_link{
+    text-decoration: none;
+    color: white;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav_link:hover{
+    color: black;
+}
+.myTunes{
+    background-image: url('https://www.yuga.ru/media/84/41/guitar-756326_1920__y8g8pd6.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: -40px;
+
+}
+
+h1{
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    font-weight: 580;
+    font-size: 59px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 39px;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.myTunes-in h1{
+    padding-top: 10%;
+}
+
+.music-in{
+    background-color: rgb(0, 0, 0);
+    margin-top: -40px;
+}
+
+.music-in h1, h3, h5, p{
+    color: white;
+}
+.music-in p{
+    margin-top: 5%;
+}
+.music-in img{
+    width:70%;
+    height: 20%;
+}
+
+.btn{
+        display: inline-block;
+        margin-top: 3%;
+        vertical-align: top;
+        padding: 14px 60px;
+        border-radius: 2px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:13px;
+        font-weight: 600px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: ghostwhite;
+        text-align: center;
+        background-color: red;
+}
+
+.btn:hover{
+    background-color: rgb(187, 40, 40);
+}
+
+.overview-in h1{
+    color: black;
+    text-align: center;
+}
+.overview-in h5{
+    color: black;
+    text-align: center;
+}
+.overview-in h1{
+    font-size:40px;
+}
+
+.overview-in h5{
+    font-size: 20px;
+}
+
+.overview-in a{
+    background-color: rgb(22, 44, 107);
+    transition-duration: 0.5s;
+}
+
+.overview-in a:hover{
+    background-color: royalblue;
+}
+.overview-in img{
+    width:70%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+.overview-in a{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.entertainment-in{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.entertainment-in h1{
+    padding-top: 5%;
+}
+
+.entertainment-in h5{
+    padding-bottom: 4%;
+}
